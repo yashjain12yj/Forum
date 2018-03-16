@@ -21,7 +21,7 @@ const app = express();
 require('./backend/express')(app, serverConfigs);
 
 // fire up the server
-app.listen(serverConfigs.PORT, (error) => {
+app.listen(process.env.PORT || 5000, (error) => {
   if (error) throw error;
   console.log('Server running on port: ' + serverConfigs.PORT);
 });
