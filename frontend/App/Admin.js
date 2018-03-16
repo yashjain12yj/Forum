@@ -29,7 +29,7 @@ class AdminContainer extends Component {
     if (user.role === 'admin') {
       return (
         <div>
-          <Helmet><title>ReForum | Admin</title></Helmet>
+          <Helmet><title>YJForum | Admin</title></Helmet>
           <AdminHeader />
           {this.props.children}
         </div>

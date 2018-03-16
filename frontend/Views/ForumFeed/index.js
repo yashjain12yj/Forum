@@ -96,7 +96,7 @@ class ForumFeed extends Component {
 
     return (
       <div className={classnames(appLayout.constraintWidth, styles.contentArea)}>
-        <Helmet><title>{`ReForum | ${currentForum}`}</title></Helmet>
+        <Helmet><title>{`YJForum | ${currentForum}`}</title></Helmet>
 
         <div className={appLayout.primaryContent}>
           <FeedBox

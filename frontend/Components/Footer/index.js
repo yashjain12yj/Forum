@@ -9,6 +9,7 @@ class Footer extends Component {
     return (
       <div className={classnames(appLayout.constraintWidth, styles.contentArea)}>
         {/* Copyright? Who cares? :-) */}
+        
       </div>
     );
   }

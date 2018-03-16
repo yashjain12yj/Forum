@@ -62,7 +62,7 @@ class UserProfile extends Component {
 
     return (
       <div className={classnames(appLayout.constraintWidth, styles.container)}>
-        <Helmet><title>{`${name || username} | ReForum`}</title></Helmet>
+        <Helmet><title>{`${name || username} | YJForum`}</title></Helmet>
 
         <div className={appLayout.primaryContent}>
           <Profile
