@@ -1,16 +1,16 @@
 {
-  "name": "reforum",
+  "name": "YJforum",
   "version": "1.0.0",
   "description": "A forum application built with ReactJS, Redux, Express and MongoDB",
-  "author": "Provash Shoumma",
+  "author": "Yash Jain",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shoumma/ReForum/issues"
+    "url": "https://github.com/yashjain12yj/forum/issues"
   },
-  "homepage": "https://github.com/shoumma/ReForum#readme",
+  "homepage": "https://github.com/yashjain12yj/forum#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shoumma/ReForum.git"
+    "url": "git+https://github.com/yashjain12yj/forum.git"
   },
   "keywords": [
     "forum",
@@ -34,7 +34,7 @@
       "command": "node server.js",
       "env": {
         "NODE_ENV": "production",
-        "PORT": 3030
+        "PORT": 5000
       }
     },
     "start:dev": {
