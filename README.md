@@ -1,5 +1,4 @@
-![logo](./docs/design_assets/logo.png)
-
+#YJFORUM
 
 A minimal forum application built with the following technologies:
 * [React](https://facebook.github.io/react/)
